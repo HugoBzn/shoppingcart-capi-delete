@@ -1,6 +1,10 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+// Cargando biblioteca VUE
+import { createApp } from "vue";
 
-import './assets/main.css'
+// Cargando componente principal
+import App from "./App.vue";
 
-createApp(App).mount('#app')
+// Cargando estilos globales
+import "./assets/main.css";
+
+createApp(App).mount("#app");
