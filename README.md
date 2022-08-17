@@ -1,4 +1,4 @@
-# shopping-hugobzn
+# ShoppingList with VUE3 - HugoBzn
 
 This template should help get you started developing with Vue 3 in Vite.
 
