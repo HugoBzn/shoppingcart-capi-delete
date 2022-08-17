@@ -1,6 +1,6 @@
 <script setup>
 // Importando la fabrica de referencias reactivas
-import { ref } from 'vue';
+import { ref, computed } from 'vue';
 
 // Creando la referencia reactiva
 const header = ref("Lista de compras");
@@ -22,6 +22,10 @@ const saveItem = () => {
 const doEdit = (edit) => {
     editing.value = edit;
 } 
+// Creando la propiedad computada
+const characterCount = computed(() => { 
+    return newItem.value.length 
+})
 </script>
 
 <template>
@@ -36,6 +40,8 @@ const doEdit = (edit) => {
         <input type="checkbox" v-model="newItemHighPriority"/>
     </label>
     <button @click="saveItem" class="btn btn-primary">Guardar Articulo</button>
+    <br/>
+    <label>{{characterCount}} / 200</label>
   </div>
   
   <ul>
