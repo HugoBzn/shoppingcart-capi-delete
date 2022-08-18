@@ -18,7 +18,7 @@ body {
 }
 
 #app {
-  background: #fff;
+  background: rgba(201, 201, 201, 0.923);
   padding: 2rem;
   margin: 1rem;
   border-radius: 3px;
@@ -68,8 +68,8 @@ li input {
   margin: 0 0.5rem 0;
 }
 
-#shopping-list > input,
-#shopping-list > select {
+#shopping-list>input,
+#shopping-list>select {
   width: 100%;
   border-radius: 3px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
@@ -90,7 +90,7 @@ li input {
 }
 
 .add-item-form input {
-  width: 70%;
+  width: 55%;
   border-radius: 3px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   border: 1px solid #f1f5f8;
@@ -143,16 +143,17 @@ li input {
 
 .strikeout {
   text-decoration: line-through;
-  color: #b8c2cc;
+  color: #ff0000;
 }
 
 .strikeout:hover {
-  color: #8795a1;
+  color: #ff0000;
 }
 
 .priority {
-  color: #de751f;
+  color: rgb(95, 3, 207);
 }
+
 input[type="checkbox"] {
   display: inline !important;
   box-shadow: none;
