@@ -32,7 +32,7 @@ const characterCount = computed(() => {
   <div class="header">
     <h1>🛒 {{ header }}</h1>
     <button v-if="editing" @click="doEdit(false)" class="btn">Cancelar</button>
-    <button v-else @click="doEdit(true)" class="btn-primary">
+    <button v-else @click="doEdit(true)" class="btn btn-primary">
       Agregar articulo
     </button>
   </div>
