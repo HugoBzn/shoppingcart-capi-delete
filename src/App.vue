@@ -88,7 +88,13 @@ const reversedItems = computed(() => [...items.value].reverse());
       <input type="checkbox" v-model="newItemHighPriority" />
       <strong>Priority level</strong>
     </label>
-    <button @click="saveItem" class="btn btn-primary">Guardar Articulo</button>
+    <button
+      :disabled="newItem.length < 3"
+      @click="saveItem"
+      class="btn btn-primary"
+    >
+      Guardar Articulo
+    </button>
   </div>
 
   <!-- En caso de que no haya articulos que mostrar -->
