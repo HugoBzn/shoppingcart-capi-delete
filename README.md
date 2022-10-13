@@ -1,4 +1,4 @@
-# shopping-hugobzn
+# 🛒 ShoppingList with VUE3 - HugoBzn 🦖
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -16,10 +16,18 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 npm install
 ```
 
+```sh
+bun install
+```
+
 ### Compile and Hot-Reload for Development
 
 ```sh
 npm run dev
+```
+
+```sh
+bun run dev
 ```
 
 ### Compile and Minify for Production
@@ -28,8 +36,16 @@ npm run dev
 npm run build
 ```
 
+```sh
+bun run build
+```
+
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
+```
+
+```sh
+bun run lint
 ```
